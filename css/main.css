@@ -2063,7 +2063,7 @@ h4, h5, h6 {
 .is-sticky .default-header {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background-color: #222;
+  background-color: #0086A5;
 }
 
 .dropdown-item {
