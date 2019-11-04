@@ -1921,6 +1921,13 @@ h4, h5, h6 {
   max-height: 45px;
 }
 
+@font-face {
+  font-family: "lunaregular";
+  src: url("../fonts/luna-webfont.woff2") format("woff2"), url("../fonts/luna-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .section-gap {
   padding: 120px 0;
 }
@@ -2143,6 +2150,7 @@ h4, h5, h6 {
 
 .default-banner h1 {
   color: #222;
+  font-family: 'lunaregular';
   font-size: 72px;
   font-weight: 700;
   line-height: 1em;
