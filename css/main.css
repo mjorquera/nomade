@@ -2397,25 +2397,25 @@ h4, h5, h6 {
   font-size: 20px;
 }
 
-.gallery-area .owl-controls {
+.activity-area .owl-controls {
   position: absolute;
   left: 90%;
   top: 89%;
 }
 
 @media (max-width: 1024px) {
-  .gallery-area .owl-controls {
+  .activity-area .owl-controls {
     position: relative;
     text-align: center;
     left: 0;
     top: 20px;
   }
-  .gallery-area .owl-controls .owl-prev, .gallery-area .owl-controls .owl-next {
+  .activity-area .owl-controls .owl-prev, .activity-area .owl-controls .owl-next {
     display: inline-block;
   }
 }
 
-.gallery-area .lnr-arrow-up, .gallery-area .lnr-arrow-down {
+.activity-area .lnr-arrow-up, .activity-area .lnr-arrow-down {
   background-color: white;
   -webkit-box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.2);
           box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.2);
