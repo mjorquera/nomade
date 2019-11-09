@@ -121,10 +121,17 @@
 //--------- Start Banner Area -------------//
 
 .default-header{
-	background-color:transparent;
 	width: 100% !important;
 	@media(max-width:992px){
 		background-color:#0086A5;
+	}
+
+	&.normal-color{
+		background-color:#0086A5;
+	}
+
+	&.transparent{
+		background-color:transparent;
 	}
 }
 
@@ -830,6 +837,9 @@
 	p {
 		margin: 0;
 	}
+}
+.mh-300{
+	max-height: 300px;
 }
 //----------- End Generic Page -------------//
 

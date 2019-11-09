@@ -8,12 +8,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #b01afe;
+  background-color: #0086A5;
   color: #fff;
 }
 
 ::selection {
-  background-color: #b01afe;
+  background-color: #0086A5;
   color: #fff;
 }
 
@@ -892,25 +892,25 @@ h4, h5, h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #b01afe;
+  background: #0086A5;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #b01afe;
-  border: 1px solid #b01afe;
+  color: #0086A5;
+  border: 1px solid #0086A5;
   background: #fff;
 }
 
 .genric-btn.primary-border {
-  color: #b01afe;
-  border: 1px solid #b01afe;
+  color: #0086A5;
+  border: 1px solid #0086A5;
   background: #fff;
 }
 
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #b01afe;
+  background: #0086A5;
   border: 1px solid transparent;
 }
 
@@ -1046,7 +1046,7 @@ h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #b01afe;
+  border-left: 2px solid #0086A5;
 }
 
 .progress-table-wrap {
@@ -1178,7 +1178,7 @@ h4, h5, h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #b01afe;
+  border: 3px solid #0086A5;
   background: #fff;
   top: 4px;
   left: 0;
@@ -1191,7 +1191,7 @@ h4, h5, h6 {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #b01afe;
+  color: #0086A5;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1204,7 +1204,7 @@ h4, h5, h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #b01afe;
+  color: #0086A5;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1217,7 +1217,7 @@ h4, h5, h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #b01afe;
+  color: #0086A5;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1289,7 +1289,7 @@ h4, h5, h6 {
 
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #b01afe;
+  border: 1px solid #0086A5;
 }
 
 .single-input-accent {
@@ -1350,7 +1350,7 @@ h4, h5, h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #b01afe;
+  background: #0086A5;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.2);
@@ -1429,7 +1429,7 @@ h4, h5, h6 {
 }
 
 .primary-switch input:checked + label:before {
-  background: #b01afe;
+  background: #0086A5;
 }
 
 .confirm-switch {
@@ -1774,12 +1774,12 @@ h4, h5, h6 {
 }
 
 .default-select .nice-select .list .option.selected {
-  color: #b01afe;
+  color: #0086A5;
   background: transparent;
 }
 
 .default-select .nice-select .list .option:hover {
-  color: #b01afe;
+  color: #0086A5;
   background: transparent;
 }
 
@@ -1828,12 +1828,12 @@ h4, h5, h6 {
 }
 
 .form-select .nice-select .list .option.selected {
-  color: #b01afe;
+  color: #0086A5;
   background: transparent;
 }
 
 .form-select .nice-select .list .option:hover {
-  color: #b01afe;
+  color: #0086A5;
   background: transparent;
 }
 
@@ -2013,11 +2013,11 @@ h4, h5, h6 {
 
 .primary-btn.white:hover {
   background: #fff;
-  color: #b01afe;
+  color: #0086A5;
 }
 
 .primary-btn.white:hover span {
-  color: #b01afe;
+  color: #0086A5;
 }
 
 .primary-btn2 {
@@ -2046,7 +2046,6 @@ h4, h5, h6 {
 }
 
 .default-header {
-  background-color: transparent;
   width: 100% !important;
 }
 
@@ -2054,6 +2053,14 @@ h4, h5, h6 {
   .default-header {
     background-color: #0086A5;
   }
+}
+
+.default-header.normal-color {
+  background-color: #0086A5;
+}
+
+.default-header.transparent {
+  background-color: transparent;
 }
 
 .sticky-wrapper {
@@ -2365,7 +2372,7 @@ h4, h5, h6 {
 }
 
 .active-works-carousel .owl-dots .owl-dot.active {
-  background: #b01afe;
+  background: #0086A5;
   -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -2574,7 +2581,7 @@ h6 {
 }
 
 .copy-right-text i, .copy-right-text a {
-  color: #b01afe;
+  color: #0086A5;
 }
 
 .footer-social a {
@@ -2702,7 +2709,7 @@ h6 {
 }
 
 .footer-text a, .footer-text i {
-  color: #b01afe;
+  color: #0086A5;
 }
 
 .whole-wrap {
@@ -2772,5 +2779,9 @@ h6 {
 
 .switch-wrap p {
   margin: 0;
+}
+
+.mh-300 {
+  max-height: 300px;
 }
 /*# sourceMappingURL=main.css.map */
