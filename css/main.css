@@ -2784,4 +2784,17 @@ h6 {
 .mh-300 {
   max-height: 300px;
 }
+
+.title-inv {
+  color: #fff;
+  padding: 5px 5px 5px 15px;
+}
+
+.title-inv.primary {
+  background-color: #0086A5;
+}
+
+.title-inv.secondary {
+  background-color: #1271a4;
+}
 /*# sourceMappingURL=main.css.map */

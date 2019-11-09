@@ -841,6 +841,18 @@
 .mh-300{
 	max-height: 300px;
 }
+
+.title-inv{
+	
+	color: $white;
+	padding: 5px 5px 5px 15px;
+	&.primary{
+		background-color: $primary-color;
+	}
+	&.secondary{
+		background-color: $secondary-color;
+	}
+}
 //----------- End Generic Page -------------//
 
 
