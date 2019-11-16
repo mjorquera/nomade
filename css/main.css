@@ -2797,4 +2797,12 @@ h6 {
 .title-inv.secondary {
   background-color: #1271a4;
 }
+
+.rounded-img {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 160px;
+  height: 160px;
+}
 /*# sourceMappingURL=main.css.map */

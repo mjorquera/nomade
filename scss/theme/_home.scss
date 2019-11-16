@@ -853,6 +853,13 @@
 		background-color: $secondary-color;
 	}
 }
+
+.rounded-img{
+	border-radius: 50%;
+	object-fit: cover;
+	width:160px;
+	height:160px;
+}
 //----------- End Generic Page -------------//
 
 
