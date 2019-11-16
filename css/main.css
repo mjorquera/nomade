@@ -2805,4 +2805,9 @@ h6 {
   width: 160px;
   height: 160px;
 }
+
+.sustanaibility-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=main.css.map */
