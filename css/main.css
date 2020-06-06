@@ -2158,7 +2158,7 @@ h4, h5, h6 {
 .default-banner h1 {
   color: #222;
   font-family: 'lunaregular';
-  font-size: 72px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 1em;
   margin-bottom: 10px;
@@ -2183,7 +2183,7 @@ h4, h5, h6 {
 
 @media (max-width: 1199px) {
   .default-banner h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 
