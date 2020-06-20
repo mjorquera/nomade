@@ -1,5 +1,6 @@
 $default: #f9f9ff;
 $primary: $primary-color;
+$secondary: #f1592a;
 $success: #4cd3e3;
 $info   : #38a4ff;
 $warning: #f4e700;
@@ -370,9 +371,13 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 30px;
 	li {
 		list-style-type:decimal-leading-zero;
-		color: $primary;
+		color: $secondary;
 		font-weight: 500;
 		line-height: 1.82em !important;
+		strong {
+			color: $primary;
+			font-weight: 500;
+		}
 		span {
 			font-weight: 300;
 			color: $text-color;
