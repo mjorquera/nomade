@@ -1009,3 +1009,12 @@ h1, h2, h3, h4, h5, h6 {
 		right: 20px;
 	}
 }
+
+i {
+	&.color-danger{
+		color: $danger;
+	}
+	&.color-primary{
+		color: $primary;
+	}
+}

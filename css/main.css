@@ -1851,6 +1851,14 @@ h4, h5, h6 {
   right: 20px;
 }
 
+i.color-danger {
+  color: #f44a40;
+}
+
+i.color-primary {
+  color: #0086A5;
+}
+
 @media (max-width: 992px) {
   .navbar-nav {
     height: auto;
