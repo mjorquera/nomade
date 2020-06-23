@@ -548,21 +548,25 @@
 					method="POST" class="contact-form text-right">
 					<div class="row">
 						<div class="col-lg-6 form-group">
-							<input name="name" placeholder="Ingresa tu nombre" onfocus="this.placeholder = ''"
-								onblur="this.placeholder = 'Ingresa tu nombre'" class="common-input mb-20 form-control"
-								required="" type="text">
-
-							<input name="email" placeholder="Ingresa tu correo"
+							<label for="name">Nombre</label>
+							<input id="name" name="name" placeholder="Ingresa tu nombre" onfocus="this.placeholder = ''"
+							onblur="this.placeholder = 'Ingresa tu nombre'" class="common-input mb-20 form-control"
+							required="" type="text">
+							
+							<label for="email">Correo</label>
+							<input id="email" name="email" placeholder="Ingresa tu correo"
 								pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''"
 								onblur="this.placeholder = 'Ingresa tu correo'" class="common-input mb-20 form-control"
 								required="" type="email">
 
-							<input name="telefono" placeholder="Ingresa tu teléfono" onfocus="this.placeholder = ''"
+							<label for="telefono">Teléfono</label>
+							<input id="telefono" name="telefono" placeholder="Ingresa tu teléfono" onfocus="this.placeholder = ''"
 								onblur="this.placeholder = 'Ingresa tu teléfono'" class="common-input mb-20 form-control"
 								required="" type="text">
 						</div>
 						<div class="col-lg-6 form-group">
-							<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Mensaje"
+							<label for="message">Mensaje</label>
+							<textarea id="message" class="common-textarea mt-10 form-control" name="message" placeholder="Mensaje"
 								onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mensaje'"
 								required=""></textarea>
 							<input type="submit" value="Enviar Mensaje" class="genric-btn primary mt-20" />
